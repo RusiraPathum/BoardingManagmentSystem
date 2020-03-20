@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="48dp"
+        android:text="User List"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/user_1"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/app_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:text="User Name"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/user_2"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/user_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="User Name"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/delete_button_rectangle"
+        android:textColor="#ffffff"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toStartOf="@+id/button"
+        android:layout_toEndOf="@+id/user_1"
+        android:background="@drawable/edit_button_rectangle"
+        android:textColor="#ffffff"
+        android:text="Edit" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/button4"
+        android:layout_toEndOf="@+id/user_2"
+        android:background="@drawable/edit_button_rectangle"
+        android:text="Edit"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/delete_button_rectangle"
+        android:text="Delete"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/back_button_rectangel"
+        android:text="Back" />
+
+
+</RelativeLayout>
